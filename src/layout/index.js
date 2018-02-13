@@ -1,8 +1,11 @@
-export default class Layout {
+import template from './layout.html'
 
+export default class Layout {
+    
     render(){
-        var url = '';
-        var ajouter = document.createElement(url);
-        document.body.appendChild(ajouter);
+        var $ = require("jquery");
+            $(document).ready(function(){
+                $('body').html(template);
+            })
     }
-}
+}   
