@@ -1,11 +1,9 @@
 import template from './layout.html'
+import $ from 'jquery'
 
 export default class Layout {
-    
-    render(){
-        var $ = require("jquery");
-            $(document).ready(function(){
-                $('body').html(template);
-            })
+
+    render() {
+         $('body').html(template);
     }
 }   

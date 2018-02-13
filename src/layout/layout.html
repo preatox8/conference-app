@@ -1,6 +1,34 @@
-<header>Ici Bientôt un logo</header>
-<nav>Ici bientôt un menu</nav>
+<nav id="navhtml" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Conférence</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#sessions-list">Sessions
+                <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-item nav-link" href="#speakers-list">Présentateurs</a>
+        </div>
+    </div>
+</nav>
+<header id="headerhtml" style="text-align: center;">
+    <img src="src/images/commitstrip.jpg" alt="image" height="200" width="200">
+    <p>
+        <strong style="font-size: 3em;">Conférence</strong>
+        <br>Date Début - Date de fin
+    </p>
+</header>
 <section id="main-view">
-Ici le contenu principal en attente de chargement
+    <div class="row">
+        <div class="col-12" style="text-align: center;">
+            <a class="btn btn-secondary" href="#sessions-list" role="button">Voir les sessions</a>
+        </div>
+        <br>
+        <br>
+        <div class="col-12" style="text-align: center;">
+            <a class="btn btn-secondary" href="#speakers-list" role="button">Voir les présentateurs</a>
+        </div>
+    </div>
 </section>
-<footer>Ici bientôt un pied de page</footer>
