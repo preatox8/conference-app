@@ -23,7 +23,9 @@ var router = () => {
     } else if (location.hash == '#sessions-list') {
         sessionlist.render(idView, idHeader, idNav);
     } else if(location.hash == '#speaker-detail'){
-        speakerlist.renderspeaker();
+        speakerlist.renderspeaker(idSpeaker);
+    }else if(location.hash == '#session-detail'){
+        sessionlist.rendersession(idSession);
     }
 }
 
